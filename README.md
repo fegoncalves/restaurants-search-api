@@ -5,6 +5,8 @@ Este projeto foi desenvolvido durante o Bootcamp Impulso React Web Developer da 
 Foi criado um sistema web para buscar restaurantes - parecido com o serviço que o Google oferece - onde os resultados das pesquisas que o usuário fizer serão exibidos dinamicamente próximo a sua localidade.
 
 
+
+&nbsp;
 ## **_Algumas funcionalidades da aplicação:_**
 * Carrossel de fotos exibindo os restaurantes da área;
 * Listagem vertical dos restaurantes;
@@ -14,12 +16,16 @@ Foi criado um sistema web para buscar restaurantes - parecido com o serviço que
 > Quando o projeto é iniciado e até o resultado de uma pesquisa ser exibido na listagem, o sistema mostra uma animação - um motoboy na moto fazendo entregas - durante os poucos segundos em que a página é recarregada.
 
 
+
+&nbsp;
 ## **_Tecnologias utilizadas:_**
 * JavaScript
 * React.JS
 * API do Google (Maps JavaScript API e Places API)
 
 
+
+&nbsp;
 ## **_Algumas ferramentas, bibliotecas, dependências e animações utilizadas:_**
 * Styled Components;
 * Styled Reset;
@@ -35,14 +41,13 @@ Foi criado um sistema web para buscar restaurantes - parecido com o serviço que
 * React Lottie
 
 
-
-
+&nbsp;
 ## **_Prévia da aplicação:_**
 ![prévia do projeto](https://fernandagoncalves.com.br/github/restaurants.gif)
 
 
 
-
+&nbsp;
 ## **_Como executar o projeto:_**
 ### _Clone o repositório:_
 `git clone https://github.com/fegoncalves/restaurants-search-api.git`
@@ -59,10 +64,13 @@ Foi criado um sistema web para buscar restaurantes - parecido com o serviço que
 
 
 
+&nbsp;
 ### **_Para o uso da API_**
-Para que a aplicação funcione normalmente em seu dispositivo, será necessário usar ou criar um projeto no [Google Cloud Platfrom](https://cloud.google.com/).  Uma vez criado você deverá:
+Para que a aplicação funcione normalmente em seu dispositivo, será necessário usar ou criar um projeto no [Google Cloud Platfrom](https://cloud.google.com/). 
+
+Uma vez criado você deverá:
 1. Selecionar e ativar as bibliotecas Maps JavaScript API e Places API;
 2. Criar uma credencial para obter a chave API;
-3. No diretório raíz da sua aplicação, crie um arquivo chamado `.env` e cole dentro deste a linha abaixo juntamente com a chave API criada.
+3. No diretório raíz da sua aplicação, crie um arquivo chamado `.env` e cole dentro deste a linha a seguir juntamente com a chave API criada.
 `REACT_APP_GOOGLE_API_KEY=SuaChaveAqui`
 
