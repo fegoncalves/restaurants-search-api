@@ -55,10 +55,10 @@ Foi criado um sistema web para buscar restaurantes - parecido com o serviço que
 ### _Acesse a pasta da aplicação_
 `cd restaurants-search-api`
 
-### Instale as dependências_
+### _Instale as dependências_
 `npm install`
 
-## _Inicie a aplicação_
+### _Inicie a aplicação_
 `npm start` ou `yarn start`
 > A aplicação será exibida no seu localhost através do endereço http://localhost:3000 
 
